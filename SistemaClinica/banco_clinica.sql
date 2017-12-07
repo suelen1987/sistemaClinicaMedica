@@ -2,7 +2,7 @@
 CREATE DATABASE clinica;
 
 
-CREATE TABLE medicos(
+CREATE TABLE Medicos(
   id INT NOT NULL AUTO_INCREMENT ,
   nomeMedico VARCHAR(150) NOT NULL,
   Sobrenome VARCHAR(150) NOT NULL,
@@ -27,7 +27,7 @@ CREATE TABLE Paciente(
   CartaoConvenio VARCHAR(13) NOT NULL,
   PRIMARY KEY (id));
 
-INSERT into prontuario(Diagnostico,Consulta_id) VALUES('',2);
+
 
 
 
